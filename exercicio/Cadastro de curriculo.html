@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+         <!--Cabeçalho-->
+    <head>  
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+        <title>Cadastro de Currículo</title>
+
+        <link rel="stylesheet" type="text/css" href="C:\Users\eduardo.ssantana3\Desktop\exercicio\css\estilo.css">
+    </head>
+    <body>
+
+        <form action="parametros.php" method="post"></form>
+    <h1>Cadastro de Currículo</h1>
+        <fieldset >
+             <legend > Dados Pessoais </legend>
+              
+                <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->    
+                <label for="name_id"> Nome:</labe>
+                    <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                    <input
+                    id="name_id"
+                    type="name"
+                    name="name"
+                    placeholder="Digite seu nome">
+                   
+                <br>
+                <label for="email_id"> Email:</labe>
+                    <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                    <input
+                    id="email_id"
+                    type="email"
+                    name="email"
+                    placeholder="Digite seu email">
+            
+                <!--Produz uma quebra de linha em um texto-->
+            <br>       
+             <!--Representa uma legenda para um item em uma interface de usuário-->
+        <label for="nascimento_id">Nascimento:</label>
+        <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+            id="nascimento_id"
+            type="date"
+            name="nascimento">
+        <!--Representa uma legenda para um item em uma interface de usuário-->
+        
+    <!--Produz uma quebra de linha em um texto-->
+<br>
+        <!--Representa uma legenda para um item em uma interface de usuário-->
+        <label for="site_id">Site</label>
+        <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+            id="site_id"
+            type="url"
+            name="site"
+            placeholder="Facebook, Linkedin">
+
+    <!--Produz uma quebra de linha em um texto-->
+<br>
+
+
+	<label for="estado_id">Estado Civil</label>
+	<select name="estado civil">
+		<option>Solteiro(a)</option>
+		<option>Casado(a) </option> 
+		<option>Divorciado(a)</option>
+		<option>Viuvo(a)</option>
+	</select><br />
+    
+    <label>Sexo:</label> 
+	<input type="radio" name="sexo" value="masc" /> Masculino 
+	<input type="radio" name="sexo" value="fem" /> Feminino
+        
+          
+        </fieldset>
+        
+            
+            <fieldset >
+            <legend > Endereço </legend>
+
+              <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->    
+              <label for="cep_id"> CEP:</labe>
+                <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                <input
+                id="cep_id"
+                type="cep"
+                name="cep">    
+            <br>
+
+              <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->    
+              <label for="endereço_id"> Endereço:</labe>
+                <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                <input
+                id="endereço_id"
+                type="endereço"
+                name="endereço">
+                
+               
+            <br>
+            </fieldset>
+
+            <fieldset >
+             <legend > Contato </legend>
+             <label for="telefone_id">Telefone:</label>
+        <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+            id="telefone_id"
+            type="tel"
+            name="telefone"
+            placeholder="Seu telefone">
+
+    <!--Produz uma quebra de linha em um texto-->
+<br>
+            <label for="telefone_id">Celular:</label>
+        <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+            id="telefone_id"
+            type="tel"
+            name="telefone"
+            placeholder="Seu celular">
+
+    <!--Produz uma quebra de linha em um texto-->
+<br>
+            </fieldset>
+            
+             
+    </head>
+
+        <!--Formulario representa uma seção de um documento que contém controles interativos que permitem ao usuário submeter informação a um determinado servidor web-->
+        <form action="parametros.php" method="post">
+
+            <!--Representa uma legenda para um item em uma interface de usuário-->
+        
+            <fieldset >
+                <legend > Conhecimentos </legend>
+                <input type="checkbox" name="html" value="html" /> HTML 
+                <input type="checkbox" name="css" value="css" /> CSS 
+                <input type="checkbox" name="javascript" value="java" /> JavaScript <br>
+                <p>Mais conhecimentos:</p>
+                <textarea rows="5" cols="20" wrap="physical" name="comments">Seus Conhecimentos</textarea>
+            
+
+            </fieldset>
+            <input type="submit" name="enviar" value="Enviar">  
+        </body>

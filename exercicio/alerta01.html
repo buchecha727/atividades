@@ -1,0 +1,35 @@
+<DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Título</title>
+        <meta charset="utf-8">
+    </head>    
+
+
+    <body>
+        <script type="text/javascript">
+            alert('Bem Vindo!');
+        </script>    
+    <script>
+        var curso = 'javascript';
+        if (curso === 'javascript'){
+            alert('Oba! Então inicie agora mesmo seus estudos em JavaScript.')
+        } else {
+            alert('Ah! Parece que JavaScript não é sua linguagem favorita...')
+        }
+    </script>
+    <script>
+        function PauloNaSituação()
+        {
+            var jilsonEletropau1 = 10;
+            var paulinho2 = 15;
+            
+            var PauloPlinio = jilsonEletropau1 * paulinho2  ;
+            document.getElementById('mostrando').innerHTML = PauloPlinio;
+        }
+
+    </script> 
+    <p>10 * 15  = <strong id="mostrando"></strong></p>
+    <input type="button" onclick="PauloNaSituação()" value="Calcular" id="botao"/>
+    </body>
+</html>

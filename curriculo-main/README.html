@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==Icones==-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--==CSS==-->
+        <link rel="stylesheet" href="C:\Users\eduardo.ssantana3\Desktop\curriculo-main\curriculo\css\style.css">
+        
+        <title>Curriculo</title>
+    </head>
+    <body>
+
+        <!--==Header==-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav_logo">Eduardo</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link">
+                                <i class='bx bx-home nav_icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#profile" class="nav_link">
+                                <i class='bx bx-user nav_icon'></i>Perfil
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#education" class="nav_link">
+                                <i class='bx bx-book nav_icon'></i>Formações
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class='bx bx-receipt nav_icon'></i>Habilidades
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link">
+                                <i class='bx bx-briefcase-alt nav_icon'></i>Experiência Profissional
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main bd-container">
+
+            <!-- Todos os elementos dessa DIV, é gerada em PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume_left">
+
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home_container section bd-grid">
+                            <div class="home_data bd-grid">
+                                <img src="img/perfil.png" alt="" class="home_img">
+
+                                <h1 class="home_title">Eduardo <b> Silva</b></h1>
+                                <h3 class="home_profession">Técnico em Informática</h3>
+
+                                <div>
+                                    <a download="" href="pdf/CVGETULIO_aBD_v1.pdf" class="home_button-movil">Baixar PDF</a>
+                                </div>
+                            </div>
+
+                            <div class="home_address bd-grid">
+                                <span class="home_information">
+                                    <i class='bx bx-map home_icon'></i> Rua Jequitirana, 252, A.E. Carvalho, São Paulo - SP
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-envelope'></i> edusilva@gmail.com
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-phone home_icon'></i> (11)98591-5475
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Botão para trocar de tema -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Botão para gerar e baixar PDF -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Redes Sociais</h2>
+                        <div class="social_container bd-grid">
+                            <a href="https://www.linkedin.com/in/eduardo-santana-12384b246/" target="_blank" class="social_link">
+                                <i class='bx bxl-linkedin-square social_icon'></i> @Eduardo Santana
+                            </a>
+                            <a href="" target="_blank" class="social_link">
+                                <i class='bx bxl-facebook social_icon'></i> Eduardo Santana
+                            </a>
+                           
+                        </div>
+                    </section>
+
+                    <!--========== PERFIL ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Perfil</h2>
+                        <p class="profile_description"> Estudando Técnico em Informática </p>
+                    </section>
+
+                    <!--========== FORMAÇÃO ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Formação</h2>
+                        <div class="education_container bd-grid">
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Ensino Médio</h3>
+                                    <span class="education_studies">E.E.Milton Cruzeiro</span>
+                                    <span class="education_year">2020 - 2022</span>
+                                </div>
+                            </div>
+
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rouder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title"> Técnico em Informática(Cursando)</h3>
+                                    <span class="education_studies">Senac Itaquera</span>
+                                    <span class="education_year">2021 - 2023</span>
+                                </div>
+                            </div>
+
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rouder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title"> WordPress</h3>
+                                    <span class="education_studies">Senac Itaquera</span>
+                                    <span class="education_year">2022</span>
+                                </div>
+                            </div>
+
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rouder"></span>
+                                    <!--<span class="education_line"></span>-->
+                                </div>
+
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title"> PhotoShop</h3>
+                                    <span class="education_studies">Senac Itaquera</span>
+                                    <span class="education_year">2022</span>
+                                    <span class="education_time">30 Horas no total</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume_right">
+                    <!--========== HABILIDADES ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Habilidades</h2>
+
+                        <div
+                        class="skills_content bd-grid">
+                    <ui class="skills_data">Web Design
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Estrutura HTML
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Estilo CSS
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>JavaScript
+                        </li>
+                    </ui>
+
+                    <ui class="skills_data">Linguagens de Programação - Desktop
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>C
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Python
+                        </li>
+                    </ui>
+
+                    <ui class="skills_data">Frameworks / IDEs
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Microsoft Visual Studio
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Visual Studio Code
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>PyCharm
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>CodeBlocks
+                        </li>
+                    </ui>
+
+                    <ui class="skills_data">Pacote Office
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Word - Intermediario
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Excel - Intermediario
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>PowerPoint - Intermediario
+                        </li>
+                    </ui>
+
+                    <ui class="skills_data">Computação Gráfica
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Adobe Photoshop - Intermediario
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Gimp - Intermediario
+                        </li>
+                    </ui>
+                </div>
+            </section>
+            <!--========== EXPERIENÇIA ==========-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experiência Profisional</h2>
+                <div class="experience_container bd-grid">
+                    <div class="experience_content">
+                        <div class="experience_time">
+                            <span class="experience_rouder"></span>
+                            <span class="experience_line"></span>
+                        </div>
+
+                        <div class="experience_data bd-grid">
+                            <h3 class="experience_title"></h3>
+                            <span class="experience_company"></span>
+                            <p class="experience_description"></p>
+                        </div>
+                        <!--<span class"experience_line"><span>-->
+                    </div>
+                </div>
+            </section>
+
+            <!--========== LANGUAGES ==========-->
+            <section class="languages section">
+                <h2 class="section-title">Linguagens</h2>
+
+                <div class="languages_container">
+                    <ul class="language_content bd-grid">
+                        <li class="languages_name">
+                            <span class="languages_circle"></span> Inglês
+                            <p class="language_description">Básico</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--========== INTERESSES ==========-->
+            <section class="interests section">
+                <h2 class="section-title">Interesses Pessoais</h2>
+                <div class="interests_container bd-grid">
+                    <div class="interests_content">
+                        <i class='bx bx-headphone interests_name'></i>
+                        <span class="interests_name">Escutar música</span>
+                    </div>
+
+                    <div class="interests_content">
+                        <i class='bx bx-palette interests_icon'></i>
+                        <span class="interests_name">Assistir <br>Filmes e Séries</span>
+                    </div>
+
+                    <div class="interests_content">
+                        <i class='bx bx-joystick interests_icon'></i>
+                        <span class="interests_name">Jogar Vídeogame <br></span>
+                    </div>
+                </div>
+            </section>
+                </div>
+            </div>
+        </main>
+        <!--==Scroll Top==-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop_icon' ></i>
+        </a>
+
+        <!--==HTML2PDF==-->
+        <script src="js/html2pdf.bundle.min.js"></script>
+        <!--==Main JS==-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
